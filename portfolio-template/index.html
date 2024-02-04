@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sandun Janitha</title>
+  </head>
+  
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://www.linkedin.com/in/sandun-janitha-262261281" class="link"
+          >SJ.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <!-- About -->
+      <div class="profile-picture">
+        <img src="profile.png" alt="Profile Picture">
+      </div>
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Sandun Janitha.</span></h1>
+        <h2 class="about__role">A Software Engineer.</h2>
+        <p class="about__desc">
+          Hi, I'm undergraduate in Software Engineering at KDU. 
+          I love creating cool software using languages like Java,Phython & PHP. 
+          Check out my portfolio for some awesome projects!
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://github.com/Sandun963"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sandun-janitha-262261281"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <a1><strong>Hardware Project</strong></a1>
+            <p class="project__description">
+              Building a food-serving robot for my hardware project at KDU. 
+              It uses [mention key components] to serve meals autonomously. 
+              Excited to showcase the fusion of tech and food! 🤖🍔
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/Sandun963"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+          </div>
+
+          <div class="project">
+            <a1><strong>Ongoing Software Project</strong></a1>
+            <p class="project__description">
+              Currently working on a dynamic bus tracking system with Ardillalabs that leverages 
+              GPS technology to provide real-time location updates for buses. 
+              This project aims to enhance commuter experience, optimize route planning, 
+              and improve overall efficiency in public transportation.🚌🌐
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Nestjs</li>
+              <li class="project__stack-item">Mysql</li>
+            </ul>
+
+            <a
+              href="https://github.com/Sandun963"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+          </div>
+
+          <div class="project">
+            <a1><strong>Web Development Project</strong></a1>
+            <p class="project__description">
+              Crafted a dynamic website for an education institute during my IT diploma.
+               Designed for optimal user experience, it features course details, 
+               faculty information, and an interactive calendar, enhancing online engagement.🎓💻
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href="https://github.com/Sandun963"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%;">(80%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%;">(75%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%;">(50%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 60%;">(60%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 40%;">(40%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 60%;">(60%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%;">(70%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 65%;">(65%)</div>
+          </div>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 55%;">(55%)</div>
+          </div>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:sandunjanitha369@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Sandun963"
+        class="link footer__link"
+      >
+        Created By  <a2>SJ.</a2>
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
